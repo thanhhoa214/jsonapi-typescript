@@ -1,0 +1,12 @@
+{
+  "extends": "@tsconfig/node16/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "declaration": true,
+    "declarationMap": true,
+    "types": [],
+    "target": "es2015"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
